@@ -2,18 +2,37 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Rampart One', cursive;
+}
+
+.titulo {
+  width: 100%;
+  height: 200px;
+}
+
+h1 {
+  font-size: 48px;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  font-family: 'Rampart One', cursive;
 }
 
 body {
     background-color: #f4c531;
 }
 
+span {
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+}
+
 .container {
     font-size: 16px;
     background-color: aliceblue;
-    width: 90vw;
-    max-width: 34em;
+    width: 80%;
+    height: 500px;
+    max-width: 90%;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -21,10 +40,73 @@ body {
     padding: 3em;
     border-radius: 0.6em;
     box-shadow: 0 1.2em 2.4em #42444e;
+    display: flex;
 }
 
+.hidden {
+  color: transparent;
+}
 
+#contenedorPalabra {
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
 
+.letra {
+  margin: 0 7px;
+  position: relative;
+  text-align: center;
+}
+
+.letra::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  min-width: 12px;
+}
+
+#btnStart {
+  appearance: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  background:#42444e;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  height: 15%;
+  align-self: center;
+  margin: auto;
+  font-family: 'Acme', sans-serif;
+
+}
+
+#btnStart2 {
+  appearance: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  background:#42444e;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  height: 15%;
+  align-self: center;
+  margin: auto;
+  font-family: 'Acme', sans-serif;
+
+}
 
 div#footer {
   background: #42444e;

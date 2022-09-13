@@ -7,17 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="/js/script.js" defer></script>
+    <script type="text/javascript" src="/js/palabras.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <title>Ahorcado</title>
 </head>
 
 <body>
-    <div class="container">
-        
-        
-
+    <div class="titulo">
+        <h1>Ahorcado</h1>
     </div>
-    </body>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+        <div id="letrasUsadas"></div>
+        <div id="contenedorPalabra"></div>
+        <button class="boton" id="btnStart">Comenzar</button>
+        <button class="boton" id="btnStart2">Agregar Palabra</button>
+    </div>
+</body>
+
 </html>
